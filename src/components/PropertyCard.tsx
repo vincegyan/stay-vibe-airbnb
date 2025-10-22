@@ -40,6 +40,8 @@ const PropertyCard = ({
             src={imageUrl}
             alt={title}
             className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-500'
+            style={{ imageRendering: '-webkit-optimize-contrast' }}
+            loading='lazy'
           />
 
           {/* Favorite Button */}
